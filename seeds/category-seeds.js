@@ -1,23 +1,27 @@
+// Import the Category model from the directory
 const { Category } = require('../models');
+
+// Define an array of objects where each object represents a category with a 'name' property
 
 const categoryData = [
   {
-    category_name: 'Shirts',
+    name: 'Shirts',
   },
   {
-    category_name: 'Shorts',
+    name: 'Shorts',
   },
   {
-    category_name: 'Music',
+    name: 'Music',
   },
   {
-    category_name: 'Hats',
+    name: 'Hats',
   },
   {
-    category_name: 'Shoes',
+    name: 'Shoes',
   },
 ];
 
+// Define a function to bulk create categories using the categoryData array
 const seedCategories = () => Category.bulkCreate(categoryData);
 
 module.exports = seedCategories;
