@@ -2,7 +2,9 @@
 
 ## Description
 
-This project is the back end for an e-commerce site, using Express.js, Sequelize, and PostgreSQL.
+As a manager at an internet retail company, it is crucial to have a working backend to compete effectively with other e-commerce platforms. This project is the back end for an e-commerce site, using Express.js, Sequelize, and PostgreSQL.
+This backend setup allows a solid foundation for developing a e-commerce website, allowing your company to effectively compete in the online retail market.
+
 
 ## Installation
 
@@ -38,15 +40,16 @@ This project is the back end for an e-commerce site, using Express.js, Sequelize
     ```bash
     npm start
     ```
-
+** Remember to run seed data
 ## Usage
 
 Use Insomnia Core or a similar tool to test the API routes.
 
+The server will start and sync Sequelize models with your PostgreSQL database. By default, the server will run on http://localhost:3001.
+
 ## Walkthrough Video
 
-[Link to Walkthrough Video](your-video-link)
+[Link to Walkthrough Video](https://drive.google.com/file/d/1m4nxhbKOysExGf8u7dyzKbtau0NR4H1J/view?usp=sharing)
+- For a visual demonstration, please refer to the [tutorial video](https://drive.google.com/file/d/1m4nxhbKOysExGf8u7dyzKbtau0NR4H1J/view?usp=sharing.)
 
-## License
 
-This project is licensed under the MIT License.
